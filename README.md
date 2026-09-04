@@ -1,6 +1,6 @@
 # Z25 PRINTER LEGACY LINUX DRIVER for x86\_64
 
-Note: drivers used in this project are deprecated cups might have problem with them
+Note: drivers used in this project are deprecated and cups might have problem with them
 
 
 ## INSTALLATION
@@ -18,7 +18,7 @@ which will install drivers.
 DRIVER IS 32 BIT ELF - MAKE SURE YOU HAVE 32 BIT LIBRARARIES INSTALLED
 
 `/usr/lib/cups/filter/rastertoz35` is probably missing some `.so` libraries and you
-have to install them manually depending on your distribution. First step is to find out what you are missing.
+have to install them manually depending on your distribution. First step is to find out what are you missing.
 
 ```sh
 ldd /usr/lib/cups/filter/rastertoz35
